@@ -38,7 +38,7 @@ header {
   border-bottom: 1px solid #e5e5e5;
   display: flex;
   justify-content: space-between;
-  align-items: left;
+  align-items: center;
   padding: 12px 20px;
   position: sticky;
   top: 0;
@@ -46,7 +46,7 @@ header {
 }
 
 /* 左侧头像+昵称+返回 */
-.header-left {
+.header-right {
   display: flex;
   align-items: center;
 }
@@ -76,17 +76,22 @@ header {
 
 /* 右侧导航栏 */
 
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .navbar ul {
   list-style: none;
   display: flex;
   justify-content: flex-start;
-  padding: 0;
+  padding-left: 0;
   margin: 0;
   /* text-align: left; */
 }
 
 .navbar ul li {
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .navbar ul li a {
