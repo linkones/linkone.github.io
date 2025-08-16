@@ -192,11 +192,11 @@ section p {
   transition: transform 0.3s ease;
 }
 
-.blog-card img {
+/* .blog-card img {
   width: 100%;
   height: 180px;
   object-fit: cover;
-}
+} */
 
 .blog-card h3 {
   font-size: 1.2rem;
@@ -246,6 +246,39 @@ section p {
 .timeline-item p {
   color: #666;
   font-size: 0.95rem;
+}
+
+/* /* =====================
+  知识分享
+=====================  */
+.knowledge-container {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.knowledge {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.knowledge h3 {
+  font-size: 1.2rem;
+  margin: 12px;
+}
+
+.knowledge p {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0 12px 12px;
+}
+
+.knowledge:hover {
+  transform: translateY(-5px);
 }
 
 /* =====================
